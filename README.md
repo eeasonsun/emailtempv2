@@ -14,11 +14,11 @@
 
 1. Clone專案到本地：
 
-    `git clone https://github.com/eeasonsun/emailtempv2.git`
+    `git clone https://github.com/eeasonsun/emailtempv3.git`
 
 2. 進入專案目錄： 
 
-    `cd email_temp_v2`
+    `cd emailtempv3`
 
 3. 安裝依賴項： 
 
@@ -45,11 +45,11 @@ Flask 應用程式創建了一個表單，**用戶可以在其中輸入寄件人
 
 在運行應用程式之前，OpenAI API 金鑰應設置為環境變量。
 
-可以至 OpenAI 網站（https://platform.openai.com）申請Paid Account獲取API keys。
+可以至 OpenAI 網站（https://platform.openai.com） 申請Paid Account獲取API keys。
 
 
 ## 其他
 
 此應用程式生成的信件內容**不全然符合條件**，仍需要進行編輯或審查才能適合實際使用。或是可以自行調整max_token、n、temperatures參數。
 
-此專案的code實驗由GPT-4建立，並由作者進行微調。
+此專案的code實驗由GPT-4建立，並由作者進行微調。有任何錯誤或建議歡迎給予指正！
